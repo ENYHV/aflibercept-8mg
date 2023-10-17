@@ -52,6 +52,18 @@ h4 {
   padding-bottom: 10px;
 }
 
+.gray {
+  color: #55585c;
+}
+
+.teal {
+  color: #34a0a9;
+}
+
+.blue {
+  color: #0673c2;
+}
+
 .collapse-text {
   font-size: 20px;
   margin-left: 1px;
@@ -265,15 +277,17 @@ sup {
 
 .btn-trial {
   background-color: #EFFAE8;
-  border-color: black;
+  border-color: rgb(115, 112, 112);
   border-width: 1.6px;
+  height: 55px;
   font-weight: bold;
   font-size: 26px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .btn-trial:hover {
-  background-color: #c9dabe;
-  border-color: black;
+  background-color: #d9edcc;
+  border-color: rgb(115, 112, 112);
   border-width: 1.6px;
   font-weight: bold;
 }
@@ -305,3 +319,4 @@ sup {
 #scroll:hover, #scroll:active {
   background-color:#e74c3c;
 } 
+
